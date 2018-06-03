@@ -1,0 +1,10 @@
+1. resources下三个文件：
+	(1). application.properties：用于配置项目运行所需的配置数据。
+	(2). static：用于存放静态资源，如：css、js、图片等。
+	(3). templates：用于存放模板文件。
+2. 多环境切换：三个配置文件:
+	(1).application-dev.properties：用于开发环境
+	(2).application-test.properties：用于测试环境
+	(3).application-prod.properties：用于生产环境
+	在 application.properties 中配置：spring.profiles.active=dev,
+	表示激活 application-dev.properties 文件配置， springboot 会加载使用 application.properties 和 application-dev.properties 配置文件的信息。
