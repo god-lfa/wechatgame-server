@@ -4,9 +4,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
-¸Ã×¢½âÖ¸¶¨ÏîÄ¿Îªspringboot£¬ÓÉ´ËÀàµ±×÷³ÌĞòÈë¿Ú
-×Ô¶¯×°Åä web ÒÀÀµµÄ»·¾³
-**/
+ * è¯¥æ³¨è§£æŒ‡å®šé¡¹ç›®ä¸ºspringbootï¼Œç”±æ­¤ç±»å½“ä½œç¨‹åºå…¥å£
+ * è‡ªåŠ¨è£…é… web ä¾èµ–çš„ç¯å¢ƒ
+ * @author LFA
+ * @date 2018å¹´6æœˆ4æ—¥ 
+ *
+ */
 @SpringBootApplication
 public class SpringbootApplication {
    public static void main(String[] args) {
