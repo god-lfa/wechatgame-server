@@ -1,13 +1,14 @@
 package com.kingtop.springboot.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
-    @GetMapping("/helloworld")
+    @RequestMapping("/hello")
     public String helloworld() {
-        return "helloworld333222";
+        return "Can You Feeling It?";
     }
     
     @GetMapping("/helloworld2")
